@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type"
+        content="text/html;charset=UTF-8" />
+  <title>Thingerling: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'main' %>
+</head>
+<body>
+
+<div class="outer-container">
+	<div class="container">
+		<div class="header">
+			<h1>Thingerling</h1>
+			<p>(A software company of one)</p>
+			<ul id="top_nav">
+				<li<% if current_page? :action => "index" %> class="selected"<% end %>>
+					<%= link_to_unless_current "Home", :action => "index" %>
+				</li>
+				<li<% if current_page? :action => "about" %> class="selected"<% end %>>
+					<%= link_to_unless_current "About", :action => "about" %>
+				</li>
+				<li<% if current_page? :action => "links" %> class="selected"<% end %>>
+					<%= link_to_unless_current "Links", :action => "links" %>
+				</li>
+			</ul>
+		</div>
+		<div class="contents">
+			<%= yield  %>
+		</div>
+	</div>
+	<div class="footer">
+		&copy; 2010 Mary Ann Brennan
+	</div>
+</div>
+
+</body>
+</html>
