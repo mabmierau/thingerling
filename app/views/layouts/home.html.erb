@@ -19,6 +19,9 @@
 				<li<% if current_page? :action => "index" %> class="selected"<% end %>>
 					<%= link_to_unless_current "Home", :action => "index" %>
 				</li>
+				<li<% if current_page? :action => "projects" %> class="selected"<% end %>>
+					<%= link_to_unless_current "Projects", :action => "projects" %>
+				</li>
 				<li<% if current_page? :action => "about" %> class="selected"<% end %>>
 					<%= link_to_unless_current "About", :action => "about" %>
 				</li>
