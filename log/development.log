@@ -4986,3 +4986,77 @@ Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-12 17:00:36) [GET
 Rendering template within layouts/two_letter
 Rendering two_letter/index
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-13 15:22:02) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#projects (for 127.0.0.1 at 2010-09-13 15:22:05) [GET]
+Rendering template within layouts/home
+Rendering home/projects
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home/projects]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:22:07) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-13 15:27:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:27:10) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:27:26) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-13 15:27:26) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_1-2-2a.js" with {:method=>:get}):
+  /server:3
+
+Rendering rescues/layout (not_found)
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:27:39) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:27:49) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:27:50) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:28:06) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/two_letter]
+
+
+Processing TwoLetterController#index (for 127.0.0.1 at 2010-09-13 15:29:13) [GET]
+Rendering template within layouts/two_letter
+Rendering two_letter/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/two_letter]
