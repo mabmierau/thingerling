@@ -1,0 +1,10 @@
+div#quiz_container { text-align: center; margin: 2em 0 5em 0; }
+
+button#start, button#play_again { font-size: 1.25em; }
+button#play_again { margin-top: 1.5em; }
+
+div#quiz_question { width: 200px; margin: 0 auto; text-align: left; }
+div#question_word { font-size: 2em; width: 3em; border: 3px solid #404040; border-radius: 0.5em ; text-align: center; margin: 0 auto; padding: 1em 0; background: #FFEEAA; }
+
+div.quiz_button_container { text-align: center; margin: 2em 0; }
+button.quiz_button { margin: 0 1em; }

@@ -1,0 +1,2 @@
+class TwoLetterController < ApplicationController
+end

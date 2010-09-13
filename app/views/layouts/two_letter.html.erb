@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type"
+        content="text/html;charset=UTF-8" />
+  <title>Thingerling: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'main' %>
+  <%= stylesheet_link_tag 'two_letter' %>
+  <script type="text/javascript" src="/javascripts/jquery_1-2-2.js"></script>
+  <script type="text/javascript" src="/javascripts/page_level/two_letter.js"></script>
+</head>
+<body>
+
+<div class="outer-container">
+	<div class="container">
+		<div class="header">
+			<h1>Thingerling</h1>
+			<p>(A software company of one)</p>
+			<ul id="top_nav">
+				<li>
+					<%= link_to_unless_current "Home", :controller => "home", :action => "index" %>
+				</li>
+				<li class="selected">
+					<%= link_to_unless_current "Projects", :controller => "home", :action => "projects" %>
+				</li>
+				<li>
+					<%= link_to_unless_current "About", :controller => "home", :action => "about" %>
+				</li>
+				<li>
+					<%= link_to_unless_current "Links", :controller => "home", :action => "links" %>
+				</li>
+			</ul>
+		</div>
+		<div class="contents">
+			<%= yield  %>
+		</div>
+	</div>
+	<div class="footer">
+		&copy; 2010 Mary Ann Brennan
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<h3>Two-letter Scrabble Word Quiz</h3>
+<p>
+	Test your knowledge of the valid two-letter words in <a href="#">Scrabble</a>.
+	Every serious Scrabble player should know these, and they're very handy for casual players as well.
+</p>
+<p>
+	Hint: You won't see any words with <b>C</b> or <b>V</b> here because there are no valid two-letter words with those letters.
+</p>
+
+<div id="quiz_container">
+	<div id="start_button"><button id="start">Get Started!</button></div>
+	<div id="quiz_question" style="display:none;">
+		<p>Is this a valid word?</p>
+		<div class="question_word_container">
+			<div id="question_word">IS</div>
+		</div>
+		<div class="quiz_button_container">
+			<button id="yes_button" class="quiz_button">Yay!</button><button id="no_button" class="quiz_button">Nay!</button>
+		</div>
+	</div>
+	<div id="quiz_answer" style="display:none;">
+		<div id="correct">That's correct! Nicely done.</div>
+		<div id="incorrect">Sorry, that's not correct.</div>
+	</div>
+	<div id="quiz_finish" style="display:none;">
+		<p>
+		Congrats! You got <span id="score_correct"></span> right and <span id="score_incorrect"></span> wrong.
+		</p>
+		<p>
+			<span id="words_valid_notice">The valid words you missed were: <span id="words_valid"></span><br /></span>
+			<span id="words_invalid_notice">The the invalid words you marked as valid were: <span id="words_invalid"></span></span>
+		</p>
+		<div>
+			<button id="play_again">Play Again!</button>
+		</div>
+	</div>
+</div>
